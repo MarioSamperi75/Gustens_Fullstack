@@ -1,0 +1,4 @@
+INSERT INTO product (id, namn, ursprung, scoville, styckpris, antal)
+VALUES  (1, 'Lombardo', 'Italien', 2000, 4, 30),
+        (2, 'Bhut Jolokia', 'Indien', 800000, 20, 100),
+        (3, 'Ají Charapita', 'Peru', 40000, 50, 20);
