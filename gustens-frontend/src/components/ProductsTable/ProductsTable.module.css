@@ -1,0 +1,29 @@
+.ProductsTable {
+  margin: 10rem auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 50rem;
+  height: 20rem;
+}
+
+table {
+  border: 2px solid forestgreen;
+  width: 800px;
+  height: 200px;
+  background-color: lavender;
+}
+
+th {
+  border-bottom: 1px solid black;
+}
+
+td {
+  text-align: center;
+  width: 10rem;
+}
+
+button {
+  width: 3rem;
+}
