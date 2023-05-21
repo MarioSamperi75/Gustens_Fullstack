@@ -1,0 +1,10 @@
+- implement redux
+- save the product array in the store
+- get the product to update from redux - Eliminate the put request!!
+- frontend validation
+
+
+...
+- authentication
+- add new product, delete product... 
+- design :)
