@@ -31,6 +31,7 @@ const ProductsTable = () => {
 
   return (
     <Fragment>
+      <div className={classes.title}>Våra produkter</div>
       <div className={classes.ProductsTable}>
         <table>
           <thead>

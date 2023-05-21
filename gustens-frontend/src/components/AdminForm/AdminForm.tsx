@@ -31,8 +31,7 @@ const AdminForm = () => {
 
   const handleSubmit = (event: any) => {
     event.preventDefault();
-    updateRecord();
-    navigate("/");
+    updateRecord().then(() => navigate("/"));
   };
 
   const updateRecord = async () => {
@@ -49,6 +48,7 @@ const AdminForm = () => {
 
   return (
     <Fragment>
+      <div className={classes.title}>Uppdatera produkten</div>
       <div className={classes.AdminForm}>
         <form onSubmit={handleSubmit}>
           <div>

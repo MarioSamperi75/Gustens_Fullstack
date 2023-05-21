@@ -1,9 +1,17 @@
-.ProductsTable {
-  margin: 10rem auto;
+.title {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: row;
+  flex-direction: column;
+  margin: 2rem;
+}
+
+.ProductsTable {
+  margin: 5rem auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   width: 50rem;
   height: 20rem;
 }
